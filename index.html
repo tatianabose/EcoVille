@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+        padding: 0px;
+        margin: 0px;
+        font-family: sans-serif;
+        font-weight: 400;
+        }
+        .main{
+            background-image: url(/Images/header-hero.jpg);
+          background-size: cover;
+            height: 100vh;
+        }
+        .nav{
+            padding: 20px 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .nav-items a{
+            margin: 0px 25px;
+            font-size: 20px;
+            color: white;
+        }
+        .nav-items span{
+            padding: 10px 20px;
+            color: white;
+            border: 1px solid white;
+        }
+        .main-heading{
+            display: flex;
+            flex-flow: column;
+            text-align: center;
+            height: 80%;
+            justify-content: center;
+        }
+        .main-heading h2{
+            font-size: 48px;
+            color: white;
+            margin-bottom: -23px;
+        }
+        .main-heading h1{
+            font-size: 100px;
+            color: white;
+           
+        }
+        .main-heading p{
+            font-size: 16px;
+            color: white;
+        }
+        .main-heading button{
+            margin-top: 20px;
+            background-color: #fed74c;
+            color: black;
+            padding: 15px 25px ;
+            border: none;
+            border-radius: 5px;
+        }
+        .service-heading h1{
+            text-align: center;
+            color: #626e56;
+            font-size: 40px;
+             border-bottom: 3px solid #fed74c;
+             margin: 50px 0px;
+             padding-bottom: 10px;
+
+        }
+        .main-imgdt{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 0px;
+        }
+        .main-service{
+            margin: 20px 80px;
+            height: 120vh;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .img-dt h3{
+            margin: 20px;
+            color: #333b2d;
+        }
+        .img-dt p{
+            margin: 20px;
+            color: #526840;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 27px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoVille</title>
+</head>
+<body>
+    <section class="main">
+        <div class="nav" >
+            <div class="logo"><img src="/Images/Logo.svg" height="50px"></div>
+            <div class="nav-items"><a>Home</a><a>About</a><a>Services</a><a>Contact</a><span>99999999</span></div>
+        </div>
+        <div class="main-heading">
+            <h2>we all love </h2>
+            <h1>nature</h1>
+            <p>Look deep into nature, and you will<br>
+                understand everything better.</p>
+               <div><button>Get Started</button></div>
+        </div>
+    </section>
+    
+
+    <section class="main-service">
+        <div class="service-heading">
+            <h1>Our Services</h1>
+        
+            </div>
+        <div class="main-imgdt">
+            <div class="img-dt">
+                <img src="/Images/service-1.jpg">
+                <h3>Web Design</h3>
+                <p>Focus on how you can help and benefit your user. Use simple words so that you don't confuse people.</p>
+            </div>
+
+
+            <div class="img-dt">
+                <img src="/Images/service-2.jpg">
+                <h3>Graphic Design</h3>
+                <p>Focus on how you can help and benefit your user. Use simple words so that you don't confuse people.</p>
+            </div>
+
+
+            <div class="img-dt">
+                <img src="/Images/service-3.jpg">
+                <h3>Content Creation</h3>
+                <p>Focus on how you can help and benefit your user. Use simple words so that you don't confuse people.</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
