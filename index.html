@@ -9,8 +9,9 @@
         font-weight: 400;
         }
         .main{
-            background-image: url(/Images/header-hero.jpg);
-          background-size: cover;
+            background-image: url(Images/header-hero.jpg);
+            background-color: black;
+            background-size: cover;
             height: 100vh;
         }
         .nav{
@@ -91,6 +92,105 @@
             font-size: 16px;
             line-height: 27px;
         }
+        .quotes-main{
+            text-align: center;
+            height: 60vh;
+            background-color: #F6F8F5;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+        }
+        .av img{
+            height: 50px;
+        }
+        .av p{
+            font-size: 14px;
+            font-weight: 200;
+            padding-top: 10px;
+            color: #B6B0C0;
+        }
+        .quotes-main h1{
+            margin: 40px 0px;
+            font-size: 35px;
+            font-family: 'Arial Narrow', Arial, sans-serif;
+            color: #536942;
+            font-weight: 200;
+        }
+        .quotes-main img{
+            height: 50px;
+        }
+        .about{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 90vh;
+            margin: 0% 10%;
+        }
+        .about-right img{
+            height: 500px;
+        }
+        .about-left p{
+            font-size: 12px;
+        }
+        #down-p{
+            font-size: 16px;
+            margin-bottom: 50px;
+        }
+        .about-left h1{
+            font-size: 40px;
+            margin-bottom: 50px;
+            margin-top: 20px;
+            color: #536942;
+        }
+        .about-left span{
+            padding: 10px 20px;
+            color: black;
+            border: 1px solid black;
+            
+        }
+        .que{
+            background-image: url(Images/footer-hero-big.jpg);
+            height: 75vh;
+            text-align: center;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            background-position: center;
+             }
+        .que h1{
+            font-size: 54px;
+            color: #38422f;
+        }  
+        .que p{
+            font-size: 18px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            color: #38422f8f;
+        }  
+        .que button{
+            margin-top: 20px;
+            background-color: #fed74c;
+            color: #091102a8;
+            padding: 15px 25px ;
+            border: none;
+            border-radius: 5px;
+          
+        }
+        .end{
+            height: 18vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0px 100px;
+        }
+        .enav a{
+           font-size: 15px;
+           justify-content: space-between;
+           margin-left: 10px;
+           
+        }
+       
+        
     </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -100,7 +200,7 @@
 <body>
     <section class="main">
         <div class="nav" >
-            <div class="logo"><img src="/Images/Logo.svg" height="50px"></div>
+            <div class="logo"><img src="Images/Logo.svg" height="50px"></div>
             <div class="nav-items"><a>Home</a><a>About</a><a>Services</a><a>Contact</a><span>99999999</span></div>
         </div>
         <div class="main-heading">
@@ -120,26 +220,78 @@
             </div>
         <div class="main-imgdt">
             <div class="img-dt">
-                <img src="/Images/service-1.jpg">
+                <img src="Images/service-1.jpg">
                 <h3>Web Design</h3>
                 <p>Focus on how you can help and benefit your user. Use simple words so that you don't confuse people.</p>
             </div>
 
 
             <div class="img-dt">
-                <img src="/Images/service-2.jpg">
+                <img src="Images/service-2.jpg">
                 <h3>Graphic Design</h3>
                 <p>Focus on how you can help and benefit your user. Use simple words so that you don't confuse people.</p>
             </div>
 
 
             <div class="img-dt">
-                <img src="/Images/service-3.jpg">
+                <img src="Images/service-3.jpg">
                 <h3>Content Creation</h3>
                 <p>Focus on how you can help and benefit your user. Use simple words so that you don't confuse people.</p>
             </div>
         </div>
     </section>
+    <br><br><br><br>
+    <section>
+        <div class="quotes-main">
+           <div> <img src="Images/quotes.svg" ></div>
+            <h1>“Original and with an innate understanding of their 
+                <br>customer’s needs, the team at Love Nature are
+                 <br>always a pleasure to work with.”</h1>
+                 <div class="av">
+                    <img src="Images/avatar_on_home.png">
+                    <p>Jane Miller</p>
+                 </div>
+            
+        </div>
+    </section>
 
+    <section class="about">
+        <div class="about-left">
+            <p>ABOUT US</p>
+            <h1>Tell website visitors who you<br>
+                 are and why they should<br> choose your business.</h1>
+            <p id="down-p">Because when a visitor first lands on your website,<br>
+                 you’re a stranger to them. They have to get to know you<br>
+                  in order to want to read your blog posts, subscribe to<br>
+                   your email newsletter, or buy what you’re selling.  
+            </p>
+            <div><span>Find Out More</span></div>
+
+          
+        </div>
+        <div class="about-right">
+            <img src="Images/leaf.jpg">
+
+        </div>
+    </section>
+    <section>
+         <div class="que">
+          <h1>QUESTIONS?</h1>
+           <p>Whether you’re curious about features, a free trial, or <br>
+              even press, we’re here to answer any questions.</p>
+            <div><button>Let's Talk Now</button></div>
+        </div>
+    </section>
+
+    <section class="end">
+    <div class="enav">
+        <a>Home</a>
+        <a>About</a>
+        <a>Service</a>
+        <a>Contact</a>
+    </div> 
+    <div><img src="Images/Logo.svg" height="50px"></div>
+    <div><p>Love Nature by Tyler Moore</p></div>
+    </section>
 </body>
 </html>
