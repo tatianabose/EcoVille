@@ -178,16 +178,22 @@
         }
         .end{
             height: 18vh;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
             margin: 0px 100px;
+            justify-content: center;
+            align-items: center;
+            
         }
         .enav a{
            font-size: 15px;
            justify-content: space-between;
            margin-left: 10px;
-           
+        }
+
+        .grid{
+            display: flex; 
+            justify-content: center;
         }
        
         
@@ -200,7 +206,7 @@
 <body>
     <section class="main">
         <div class="nav" >
-            <div class="logo"><img src="Images/Logo.svg" height="50px"></div>
+            <div class="logo"><img src="Images/logo-white.svg" height="50px"></div>
             <div class="nav-items"><a>Home</a><a>About</a><a>Services</a><a>Contact</a><span>99999999</span></div>
         </div>
         <div class="main-heading">
@@ -290,8 +296,8 @@
         <a>Service</a>
         <a>Contact</a>
     </div> 
-    <div><img src="Images/Logo.svg" height="50px"></div>
-    <div><p>Love Nature by Tyler Moore</p></div>
+    <div class="grid"><img src="Images/Logo.svg" height="50px"></div>
+    <div class="grid"><p>Love Nature by Tyler Moore</p></div>
     </section>
 </body>
 </html>
