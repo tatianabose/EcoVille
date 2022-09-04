@@ -316,7 +316,7 @@ About Page CSS Started Here
 .abend {
   height: 18vh;
   display: grid;
-  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
   align-items: center;
   padding: 0px 100px;
